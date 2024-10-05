@@ -23,4 +23,5 @@ class CommentsMailbox < ApplicationMailbox
   def board
     return @board if defined?(@board)
       @board = Board.find_by(id: mail.to.split('-')[0])
+  end
 end
