@@ -15,4 +15,5 @@ class CommentsMailbox < ApplicationMailbox
       )
   end
 
+  def commenter
 end
