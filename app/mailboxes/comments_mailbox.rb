@@ -19,4 +19,5 @@ class CommentsMailbox < ApplicationMailbox
     return @commenter if defined?(@commenter)
       @commenter = User.find_by(email: mail.from)
   end
+
 end
