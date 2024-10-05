@@ -16,4 +16,5 @@ class CommentsMailbox < ApplicationMailbox
   end
 
   def commenter
+    return @commenter if defined?(@commenter)
 end
