@@ -21,4 +21,5 @@ class CommentsMailbox < ApplicationMailbox
   end
 
   def board
+    return @board if defined?(@board)
 end
