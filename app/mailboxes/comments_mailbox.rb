@@ -20,4 +20,5 @@ class CommentsMailbox < ApplicationMailbox
       @commenter = User.find_by(email: mail.from)
   end
 
+  def board
 end
