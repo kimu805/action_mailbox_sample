@@ -15,5 +15,4 @@ class CommentsMailbox < ApplicationMailbox
       )
   end
 
-  
 end
